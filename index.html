@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>متجر رحلة</title>
+<meta name="description" content="متجر رحلة: كل تطبيقاتي في مكان واحد، دايماً على آخر إصدار.">
+<link rel="icon" type="image/svg+xml" href="icon.svg">
+<style>
+  :root { --ink:#0b1414; --panel:#142222; --teal:#0e7c7b; --gold:#f2c14e; --mist:#9fb3b2; --text:#eef5f4; }
+  * { box-sizing:border-box; }
+  body { margin:0; min-height:100vh; background:var(--ink); color:var(--text);
+    font-family:"Segoe UI",Tahoma,"Noto Naskh Arabic",sans-serif; display:flex; justify-content:center; padding:32px 16px; }
+  main { width:100%; max-width:480px; text-align:center; }
+  img { width:128px; height:128px; border-radius:28px; }
+  h1 { font-size:40px; margin:16px 0 4px; }
+  .tag { color:var(--mist); margin:0 0 28px; font-size:17px; }
+  a.btn { display:flex; align-items:center; justify-content:space-between; gap:12px; text-decoration:none; color:#fff;
+    background:var(--teal); border-radius:14px; padding:16px 18px; margin-bottom:12px; font-weight:700; font-size:18px; }
+  a.btn small { color:#d4efee; font-weight:400; font-size:14px; }
+  a.btn:hover { filter:brightness(1.15); }
+  a:focus-visible { outline:2px solid var(--gold); outline-offset:2px; }
+  section { text-align:start; background:var(--panel); border-radius:14px; padding:16px 18px; margin-top:24px; color:var(--mist); line-height:1.8; font-size:15px; }
+  section h2 { color:var(--text); font-size:17px; margin:0 0 6px; }
+  section p { margin:0; }
+  /* Arabic browsers see the Arabic copy, every other language the English one. */
+  .en { display:none; }
+  html.en .ar { display:none; }
+  html.en .en { display:block; }
+  html.en a.btn.en { display:flex; }
+</style>
+<script>
+  if (!/^ar\b/i.test(navigator.language || '')) {
+    document.documentElement.className = 'en';
+    document.documentElement.lang = 'en';
+    document.documentElement.dir = 'ltr';
+    document.title = 'Rihla Store';
+  }
+</script>
+</head>
+<body>
+<main>
+  <img src="icon.svg" alt="">
+  <h1 class="ar">متجر رحلة</h1>
+  <h1 class="en">Rihla Store</h1>
+  <p class="tag ar">كل تطبيقاتي في مكان واحد: دردشة، مافيا، رتل. ودايماً على آخر إصدار.</p>
+  <p class="tag en">All my apps in one place: Dardasha, Mafia, Rattl. Always the latest version.</p>
+
+  <a class="btn ar" href="https://github.com/abdallah4f7/rihla-store/releases/latest/download/RihlaStore.apk">حمّل للأندرويد <small>الإصدار 1.0.0 · 46 ميجا</small></a>
+  <a class="btn en" href="https://github.com/abdallah4f7/rihla-store/releases/latest/download/RihlaStore.apk">Download for Android <small>v1.0.0 · 46 MB</small></a>
+
+  <section>
+    <h2 class="ar">ملاحظة التثبيت</h2>
+    <p class="ar">إذا طلب الجوال السماح بالتثبيت من مصدر غير معروف، وافق عليه للمتصفح، وبعدها للمتجر عشان يقدر يثبّت التطبيقات.</p>
+    <h2 class="en">Installing</h2>
+    <p class="en">If your phone asks to allow installs from unknown sources, allow it for your browser, then for the store so it can install the apps.</p>
+  </section>
+</main>
+</body>
+</html>
