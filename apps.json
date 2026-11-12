@@ -1,0 +1,38 @@
+[
+  {
+    "repo": "dardasha",
+    "package": "com.dardasha.chat",
+    "apk": "Dardasha.apk",
+    "nameAr": "دردشة",
+    "nameEn": "Dardasha",
+    "aboutAr": "رسائل، مكالمات، ملصقات وقروبات.",
+    "aboutEn": "Messages, calls, stickers and groups."
+  },
+  {
+    "repo": "mafia",
+    "package": "com.abdallah4f7.mafia",
+    "apk": "Mafia.apk",
+    "nameAr": "مافيا",
+    "nameEn": "Mafia",
+    "aboutAr": "مين فيكم يكذب؟ العبها مع بوتات أو مع ناس أونلاين أو مع أصحابك.",
+    "aboutEn": "Who is lying? Play with bots, people online, or friends on one phone."
+  },
+  {
+    "repo": "rattl",
+    "package": "com.rattl.app",
+    "apk": "rattl.apk",
+    "nameAr": "رتل",
+    "nameEn": "Rattl",
+    "aboutAr": "سمّع القرآن الكريم بصوتك، والتطبيق يتابعك كلمة بكلمة وينبهك على الأخطاء.",
+    "aboutEn": "Recite the Quran aloud; the app follows word by word and flags mistakes."
+  },
+  {
+    "repo": "balantiyat",
+    "package": "com.abdallah4f7.balantiyat",
+    "apk": "Balantiyat-Android.apk",
+    "nameAr": "بلنتيات",
+    "nameEn": "Balantiyat",
+    "aboutAr": "ركلات الترجيح ضد الكمبيوتر. لعبة ثلاثية الأبعاد بمحرك Unreal Engine.",
+    "aboutEn": "Penalty shootout against the computer. A 3D game made with Unreal Engine."
+  }
+]
